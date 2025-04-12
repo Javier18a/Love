@@ -8,7 +8,27 @@
 </head>
 <body>
 
-    <h1>¡Sorpresa!</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Sorpresa</a></li>
+                <li><a href="#" onclick="checkAccess()">Acceso Seguro</a></li>
+                <script>
+                    function checkAccess() {
+                        const password = prompt("Por favor, ingresa la palabra clave:");
+                        if (password === "JavK") {
+                            alert("Acceso concedido");
+                            window.location.href = "Access.html"; // Cambia esto al enlace deseado
+                        } else {
+                            alert("Acceso denegado");
+                        }
+                    }
+                </script>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+    </header>
     
 </body>
 </html>
