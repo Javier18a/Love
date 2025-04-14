@@ -1,5 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color:white;
+}
+
+a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background: #24C6DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #514A9D, #24C6DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+    li{
+        margin: 10px 20px;
+    }
+}
+
+main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    p{
+        margin-top: 30px;
+        width: 80%;
+    }
+    
 }
